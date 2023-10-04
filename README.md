@@ -7,7 +7,8 @@ This is a simple implementation of a common Item Response Theory (IRT) model in 
 
 # Code
 
-```import numpy as np
+```
+import numpy as np
 from scipy.optimize import minimize
 
 class GradedResponseModel:
