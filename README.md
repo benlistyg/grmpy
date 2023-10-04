@@ -7,7 +7,7 @@ This is a simple implementation of a common Item Response Theory (IRT) model in 
 
 # Code
 
-``import numpy as np
+```import numpy as np
 from scipy.optimize import minimize
 
 class GradedResponseModel:
@@ -48,6 +48,6 @@ model.fit(response)  # Fitting to the item response
 
 new_theta = np.random.randn()
 predictions = model.predict(new_theta)
-print("Predicted probabilities:", predictions)`
+print("Predicted probabilities:", predictions)
 
 ```
